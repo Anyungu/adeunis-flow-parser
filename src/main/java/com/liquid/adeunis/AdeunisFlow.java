@@ -7,12 +7,12 @@ import com.liquid.adeunis.responses.AdeunisFlowResponse;
 
 public class AdeunisFlow {
 
-  String frameMode;
-  Float frameCount;
-  HashMap<String, String> status;
-  HashMap<String, Boolean> alerts;
-  HashMap<String, Float> minMax;
-  HashMap<String, Float> pulses;
+  public String frameMode;
+  public Float frameCount;
+  public HashMap<String, String> status;
+  public HashMap<String, Boolean> alerts;
+  public HashMap<String, Float> minMax;
+  public HashMap<String, Float> pulses;
 
   public AdeunisFlow(String message) throws Exception {
 
